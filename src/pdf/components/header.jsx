@@ -41,7 +41,7 @@ class Header extends React.PureComponent {
 				color: 'black',
 				padding: '10 5',
 				fontSize: props.titleSize,
-				maxWidth: 165,
+				maxWidth: 105,
 			},
 			arrow: {
 				color: '#AAA',
@@ -51,9 +51,9 @@ class Header extends React.PureComponent {
 				fontSize: 20,
 			},
 			dayNumber: {
-				fontSize: 55,
+				fontSize: 25,
 				fontWeight: 'bold',
-				marginBottom: -5,
+				marginBottom: -25,
 			},
 			specialItems: {
 				flexDirection: 'column',
@@ -125,10 +125,10 @@ class Header extends React.PureComponent {
 							»
 						</Link>
 					</View>
-					<View style={ this.styles.dateInfo }>
+					{/* <View style={ this.styles.dateInfo }>
 						{this.renderSpecialItems()}
 						<Text style={ this.styles.subtitle }>{subtitle}</Text>
-					</View>
+					</View> */}
 				</View>
 				{calendar}
 			</View>
@@ -137,8 +137,8 @@ class Header extends React.PureComponent {
 }
 
 Header.defaultProps = {
-	titleSize: 20,
-	subtitleSize: 20,
+	titleSize: 15,
+	subtitleSize: 15,
 };
 
 Header.propTypes = {

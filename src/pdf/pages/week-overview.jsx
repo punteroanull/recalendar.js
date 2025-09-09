@@ -44,11 +44,11 @@ class WeekOverviewPage extends React.Component {
 					marginBottom: 2,
 				},
 				dayOfWeek: {
-					fontSize: 12,
+					fontSize: 10,
 					fontWeight: 'bold',
 				},
 				shortDate: {
-					fontSize: 12,
+					fontSize: 10,
 					textTransform: 'uppercase',
 					marginLeft: 'auto',
 				},
